@@ -1,0 +1,34 @@
+.showcase-content img {
+
+  width: 300px;
+  height: 300px;
+
+
+}
+
+.showcase-content {
+  padding-bottom: .5rem;
+
+}
+
+.showcase-words {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.haircuts {
+  display: flex;
+  flex-direction: column;
+}
+
+@media(max-width: 500px) {
+  .showcase-content img {
+
+    width: 200px;
+    height: 200px;
+
+
+  }
+
+}
